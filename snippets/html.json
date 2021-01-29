@@ -1,0 +1,11 @@
+{
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+  
+	"Insertar secciòn de còdigo PHP": {
+		"prefix": "php",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "Abrir etiquetas PHP para preparar còdigo"
+	}
+}
