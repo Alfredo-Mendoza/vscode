@@ -1,0 +1,15 @@
+{
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	"media query":{
+		"prefix": "mq",
+		"body": [
+			"@media (min-width: $1px) {\n\t$0\n}"
+		]
+	},
+	"variables":{
+		"prefix": "-v",
+		"body": [
+			"var(--$1)"
+		]
+	}
+}
