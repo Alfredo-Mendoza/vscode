@@ -1,0 +1,7 @@
+{
+	"Imprimir en consola":{
+		"prefix": "sop",
+		"body": "System.out.println( $0 );",
+		"description": "Impresion en consola"
+	}
+}
